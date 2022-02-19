@@ -1,1 +1,1 @@
-web: gunicorn DoiXe.wsgi:application
+gunicorn DoiXe.wsgi:application
